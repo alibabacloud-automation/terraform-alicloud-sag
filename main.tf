@@ -1,6 +1,6 @@
 resource "alicloud_sag_acl" "acl" {
-  count       = var.create_acl ? 1 : 0
-  name        = var.acl_name
+  count = var.create_acl ? 1 : 0
+  name  = var.acl_name
 }
 resource "alicloud_sag_acl_rule" "acl_rule" {
   count             = var.create_acl_rule ? 1 : 0

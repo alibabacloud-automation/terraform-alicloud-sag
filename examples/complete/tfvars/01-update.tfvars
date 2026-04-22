@@ -1,5 +1,5 @@
 #alicloud_sag_acl
-acl_name   = "tf-update-test-sag"
+acl_name = "tf-update-test-sag"
 
 #alicloud_cloud_storage_gateway_gateway
 rule_description  = "tf-update-test-sag"
